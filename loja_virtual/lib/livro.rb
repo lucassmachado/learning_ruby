@@ -10,6 +10,10 @@ class Livro
 	def preco
 		@preco
 	end
+	
+	def preco=(preco)
+		@preco = preco
+	end
 
 	def to_s
 		"Autor: #{@autor}, Isbn: #{@isbn}, Páginas: #{@numero_de_paginas}"
